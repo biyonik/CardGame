@@ -8,3 +8,25 @@ Diğer kartlar = 2 - 10
 Vale, Kralice, Kral = 10
 
 Her kartın yüzü açık veya kapalı olabilmeli
+
+Hand Class(El Sınıfı)
+    bir super class
+
+    değerleri
+        kartlar(cards)
+    metodlar
+        clear() //temizle
+        add(card) // ekle
+        give(card, otherHand) // kartı ver
+
+Deck Class(Deste sınıfı)
+    bir alt sınıftır
+    Hand Class tan extend edilir
+
+    değerleri
+        kartlar(zaten Hand class tan türetilmiştir)
+
+    metodlar
+        populate() // doldur
+        shuffle() // karıştır
+        deal(hand, per_hand = 1) // alışveriş

@@ -1,0 +1,10 @@
+
+Her kartın bir ismi olmalı
+(Maça(Spades), Sinek(Club), Karo(Diamonds), Kupa(Hearts)
+
+Her kartın bir derecesi olmalı
+As = 1 veya 11
+Diğer kartlar = 2 - 10
+Vale, Kralice, Kral = 10
+
+Her kartın yüzü açık veya kapalı olabilmeli
